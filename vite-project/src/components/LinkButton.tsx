@@ -1,16 +1,16 @@
 type LinkButtonProps = {
   title: string;
-  url: string; 
+  url: string;
 };
 
 export const LinkButton = ({ title, url }: LinkButtonProps) => {
   return (
-    
     <a
       href={url}
-      target="_blank" 
-      rel="noopener noreferrer" // 
-      className="bg-violet-500 hover:bg-violet-600 text-white font-bold py-3 px-4 rounded-lg w-full text-center transition-colors mb-4 block"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Acessar ${title}`}
+      className="block w-full text-center bg-violet-500 hover:bg-violet-600 text-white font-semibold py-4 px-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105 shadow"
     >
       {title}
     </a>
