@@ -1,6 +1,6 @@
 # Clone da Página de Links (Estilo Linktree)
 
-![Print da página](assets/screenshot.png)
+![Print da página](src/assets/screenshot.png)
 
 ## 📝 Descrição
 
