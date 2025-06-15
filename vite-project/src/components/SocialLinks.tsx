@@ -19,7 +19,7 @@ export const SocialLinks = ({ socials }: SocialLinksProps) => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`Acessar rede social ${index + 1}`}
-          className="text-gray-300 hover:text-white transition duration-200 transform hover:scale-110 cursor-pointer"
+          className="text-gray-400 hover:text-white transition duration-200 transform hover:scale-110 cursor-pointer"
         >
           {social.icon}
         </a>
